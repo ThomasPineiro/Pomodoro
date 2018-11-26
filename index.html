@@ -7,9 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/knacss.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet"> 
 </head>
 <body>
+    <section class="flex-container--column">
+        <div  class="center">
+            <h1>Pomodoro</h1>
+        </div>
+        <div class="center w25">
+            <input type="text" placeholder="Entrez une tâche" class="w100">
+            <input type="number" id="minutes">
+            <input type="number" id="seconds">
+        </div>
+        <div id="countdown" class="center">
+            <p>00:00</p>
+        </div>
+    </section>
     
+    <section class="flex-container center" id="btn-container">
+        <button class="btn--success spacing" id="play-btn">Start</button>
+        <button class="btn--warning spacing">Pause</button>
+        <button class="btn--danger spacing">Stop</button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+body * {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.spacing {
+    margin-right: 7%;
+}
+
+#btn-container {
+    width: 50%;
+    padding-left: 15.5em;
+}
