@@ -15,7 +15,7 @@
             <h1>Pomodoro</h1>
         </div>
         <div class="center w25">
-            <input type="text" placeholder="Entrez une tâche" class="w100">
+            <input type="text" placeholder="Entrez une tâche" class="w100" id="task">
             <input type="number" id="minutes">
             <input type="number" id="seconds">
         </div>
@@ -28,6 +28,15 @@
         <button class="btn--success spacing" id="play-btn">Start</button>
         <button class="btn--warning spacing">Pause</button>
         <button class="btn--danger spacing">Stop</button>
+    </section>
+
+    <section class="flex-container center">
+        <ul id="listField">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
