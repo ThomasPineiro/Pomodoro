@@ -1,5 +1,16 @@
 body * {
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-image: url("../chill_banana.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
 }
 
 .spacing {
@@ -13,4 +24,26 @@ body * {
 
 #listField {
     margin-left: 33%;
+}
+
+#timerMinutes, #timerSeconds, .inline {
+    display: inline;
+    font-size: 120px;
+}
+
+h1 {
+    font-size: 120px;
+    color: red;
+}
+
+#minutes, #seconds {
+    margin-top: 5%;
+}
+
+#minutes {
+    margin-left: 1%;
+}
+
+#seconds {
+    margin-left: 3%;
 }
